@@ -48,5 +48,8 @@ header nav ul li:hover {
         flex-direction: column;
         gap: 10px;
     }
+    header nav ul li{
+        margin: 0;
+    }
 
 }
