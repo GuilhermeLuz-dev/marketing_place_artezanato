@@ -6,7 +6,7 @@
 }
 
 .container {
-    max-width: 1025px;
+    max-width: 1020px;
     width: 100%;
     margin: 0px auto;
 }
@@ -22,4 +22,10 @@ li {
 a{
     text-decoration: none;
     color: #fff;
+}
+
+@media screen and (max-width:1023px){
+    .container{
+        width: 90%;
+    }
 }
