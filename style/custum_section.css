@@ -52,32 +52,30 @@
 }
 
 @media screen and (max-width:640px) {
-    .custum{
+    .custum {
         flex-direction: column;
         align-items: center;
     }
 
-    .description{
+    .description {
         width: 100%;
         padding: 0px 10px;
         font-size: 1.2em;
     }
-    .description button{
+
+    .description button {
         width: 100%;
     }
 }
 
 @media screen and (min-width:641px) and (max-width:1023px) {
-    .custum{
+    .custum {
         padding: 15px 20px;
     }
-    .description{
+
+    .description {
         width: 100%;
         padding: 0px 10px;
         font-size: 1.2em;
     }
-}
-
-@media screen and (min-width:1024px) {
-    
 }
