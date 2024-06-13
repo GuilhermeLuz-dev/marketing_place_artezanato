@@ -11,10 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
     <!-- Styles -->
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style/custum_section.css">
+    <link rel="stylesheet" href="/styles/main_page_style/custum_section.css">
+    <link rel="stylesheet" href="/styles/main_page_style/catalog_section.css">
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
     <script src="scripts/mainpage.js" defer></script>
@@ -24,16 +25,18 @@
     <header>
         <div class="container container_flex">
             <div class="logo">
-                <h1>Amigurumi.com</h1>
+                <a href="#">
+                    <h1>Amigurumi.com</h1>
+                </a>
             </div>
             <div class="burguer_menu">
                 <i class="bx bx-menu"></i>
             </div>
             <nav class="nav_menu">
                 <ul class="container_flex">
-                    <li><a href="#">Carrinho</a></li>
-                    <li><a href="#">Catálogo</a></li>
-                    <li><a href="#">Entre ou Cadastre-se</a></li>
+                    <li><a href="#"><i class="bx bx-cart"></i>Carrinho</a></li>
+                    <li><a href="#catalog_section"><i class='bx bx-book-open'></i>Catálogo</a></li>
+                    <li><a href="#"><i class='bx bx-user'></i>Entre ou Cadastre-se</a></li>
                 </ul>
             </nav>
         </div>
@@ -51,7 +54,117 @@
                 </div>
             </div>
         </section>
+        <section id="catalog_section">
+            <div class="container">
+                <h1 class="title">Catálogo</h1>
+                <div class="category category_1">
+                    <h3 class="title">Animais</h3>
+                    <ul>
+                        <li class="item">
+                            <div class="item_img">
+                                <img src="/assets/images/coelho_branco_amigurumi.jfif" alt="Coelho branco">
+                            </div>
+                            <h3>Ursinho azul com gravata</h3>
+                            <div class="prices">
+                                <p>R$69,99</p>
+                                <h3>R$49,99</h3>
+                            </div>
+                            <button><i class="bx bx-cart"></i>Adicionar ao carrinho</button>
+                        </li>
+                        <li class="item">
+                            <div class="item_img">
+                                <img src="/assets/images/coelho_branco_amigurumi.jfif" alt="Coelho branco">
+                            </div>
+                            <h3>Ursinho azul com gravata</h3>
+                            <div class="prices">
+                                <p>R$69,99</p>
+                                <h3>R$49,99</h3>
+                            </div>
+                            <button><i class="bx bx-cart"></i>Adicionar ao carrinho</button>
+                        </li>
+                        <li class="item">
+                            <div class="item_img">
+                                <img src="/assets/images/coelho_branco_amigurumi.jfif" alt="Coelho branco">
+                            </div>
+                            <h3>Ursinho azul com gravata</h3>
+                            <div class="prices">
+                                <p>R$69,99</p>
+                                <h3>R$49,99</h3>
+                            </div>
+                            <button><i class="bx bx-cart"></i>Adicionar ao carrinho</button>
+                        </li>
+                        <li class="item">
+                            <div class="item_img">
+                                <img src="/assets/images/coelho_branco_amigurumi.jfif" alt="Coelho branco">
+                            </div>
+                            <h3>Ursinho azul com gravata</h3>
+                            <div class="prices">
+                                <p>R$69,99</p>
+                                <h3>R$49,99</h3>
+                            </div>
+                            <button><i class="bx bx-cart"></i>Adicionar ao carrinho</button>
+                        </li>
+                    </ul>
+                    <button>Ver mais</button>
+                </div>
+                <div class="category category_2">
+                    <h3 class="title">Personagens</h3>
+                    <ul>
+                        <li class="item">
+                            <div class="item_img">
+                                <img src="/assets/images/coelho_branco_amigurumi.jfif" alt="Coelho branco">
+                            </div>
+                            <h3>Ursinho azul com gravata</h3>
+                            <div class="prices">
+                                <p>R$69,99</p>
+                                <h3>R$49,99</h3>
+                            </div>
+                            <button><i class="bx bx-cart"></i>Adicionar ao carrinho</button>
+                        </li>
+                        <li class="item">
+                            <div class="item_img">
+                                <img src="/assets/images/coelho_branco_amigurumi.jfif" alt="Coelho branco">
+                            </div>
+                            <h3>Ursinho azul com gravata</h3>
+                            <div class="prices">
+                                <p>R$69,99</p>
+                                <h3>R$49,99</h3>
+                            </div>
+                            <button><i class="bx bx-cart"></i>Adicionar ao carrinho</button>
+                        </li>
+                        <li class="item">
+                            <div class="item_img">
+                                <img src="/assets/images/coelho_branco_amigurumi.jfif" alt="Coelho branco">
+                            </div>
+                            <h3>Ursinho azul com gravata</h3>
+                            <div class="prices">
+                                <p>R$69,99</p>
+                                <h3>R$49,99</h3>
+                            </div>
+                            <button><i class="bx bx-cart"></i>Adicionar ao carrinho</button>
+                        </li>
+                        <li class="item">
+                            <div class="item_img">
+                                <img src="/assets/images/coelho_branco_amigurumi.jfif" alt="Coelho branco">
+                            </div>
+                            <h3>Ursinho azul com gravata</h3>
+                            <div class="prices">
+                                <p>R$69,99</p>
+                                <h3>R$49,99</h3>
+                            </div>
+                            <button><i class="bx bx-cart"></i>Adicionar ao carrinho</button>
+                        </li>
+                    </ul>
+                    <button>Ver mais</button>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class="container container_flex">
+            &copy; Todos os direitos reservados
+        </div>
+    </footer>
 </body>
 
 </html>

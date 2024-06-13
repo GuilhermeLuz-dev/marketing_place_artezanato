@@ -1,0 +1,130 @@
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.category_1 {
+    background-color: #25e4bb2f;
+}
+
+.category_2{
+    background-color: #4393f467;
+}
+
+.category .title {
+    text-align: center;
+}
+
+.category ul {
+    display: grid;
+    grid-template-columns: repeat(4, 24.25%);
+    column-gap: 1%;
+}
+
+.item {
+    max-height: 409px;
+    padding: 20px 10px;
+    background-color: #923df370;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.item:hover {
+    background-color: #8b30f391;
+
+}
+
+.item_img {
+    width: 230px;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.item_img img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.item>h3 {
+    max-height: 50px;
+    color: #c46a91;
+    font-weight: bold;
+    margin-bottom: 5px;
+    overflow: hidden;
+    
+}
+
+.prices p {
+    font-size: .9em;
+    text-decoration: line-through;
+    color: #b46b8b;
+}
+
+.prices h3 {
+    font-size: 1.2em;
+    color: #e06c9f;
+    margin-bottom: 5px;
+}
+
+.item button {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #E57CA9;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.item button i {
+    margin-right: 3px;
+}
+
+.item button:hover {
+    background-color: #e06299;
+}
+
+.category>button {
+    max-width: 200px;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #913DF3;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.category>button:hover {
+    background-color: #831ff5;
+}
+
+@media screen and (max-width:640px){
+    .category ul {
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 0%;
+        row-gap: .2%;
+    }
+    
+}
+
+@media screen and (min-width:641px) and (max-width:1023px){
+    .category ul {
+        display: grid;
+        grid-template-columns: repeat(2,49.5%);
+        column-gap: 1%;
+        row-gap: .5%;
+    }
+}
