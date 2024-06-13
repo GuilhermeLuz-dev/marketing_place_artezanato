@@ -1,0 +1,175 @@
+:root {
+
+  --white-color: hsl(0, 0%, 100%);
+  --black-color: hsl(0, 0%, 0%);
+  --body-font: "Poppins", sans-serif;
+  --h1-font-size: 2rem;
+  --normal-font-size: 1rem;
+  --small-font-size: .813rem;
+}
+
+body,
+input,
+button {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.login {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+}
+
+
+.user-icon {
+  margin: 0 auto 15px;
+  width: 85px;
+  height: 121px;
+}
+
+
+.login__form {
+  color: white;
+  width: 100%;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #79b6ff 45%, #913df3 85%);
+  height: 500px;
+  padding: 15px 10px;
+}
+
+.login__title {
+  text-align: center;
+  font-size: large;
+  margin-bottom: 1.25rem;
+}
+
+.login__inputs,
+.login__box {
+  display: grid;
+}
+
+.login__inputs {
+  row-gap: 12px;
+  margin-bottom: 15px;
+}
+
+.login__box {
+  grid-template-columns: 1fr max-content;
+  column-gap: .75rem;
+  align-items: center;
+  border: 2px solid hsla(0, 0%, 100%, .7);
+  padding-inline: 1.25rem;
+  border-radius: 4rem;
+}
+
+.login__input,
+.login__button {
+  border: none;
+  outline: none;
+}
+
+.login__input {
+  width: 100%;
+  background: none;
+  color: #fff;
+  padding-block: 12px;
+}
+
+.login__input::placeholder {
+  color: #fff;
+}
+
+.login__box i {
+  font-size: 1.25rem;
+}
+
+.login__check,
+.login__check-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login__check {
+  margin-bottom: 1rem;
+  font-size: small;
+}
+
+.login__check-box {
+  column-gap: .5rem;
+}
+
+.login__check-input {
+  width: 8px;
+  height: 8px;
+  accent-color: #fff;
+}
+
+.login__forgot {
+  color: #fff;
+}
+
+.login__forgot:hover {
+  text-decoration: underline;
+}
+
+.login__button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #79B6FF;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: #368df7;
+}
+
+.login__register {
+  font-size: small;
+  text-align: center;
+}
+
+.login__register a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.login__register a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width:641px) {
+  .login {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login__form {
+    display: inline-block;
+    padding: 15px 20px;
+    padding-inline: 25px;
+  }
+
+  .login__title {
+    margin-bottom: 2rem;
+  }
+}

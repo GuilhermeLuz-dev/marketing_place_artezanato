@@ -14,3 +14,9 @@ $('document').ready(() => {
         $('.hidden_list2').slideToggle();
     })
 })
+
+// Tirando o padrão do formulário
+let form = document.querySelector(".login__form");
+form.addEventListener('submit',(event)=>{
+    event.preventDefault();
+})
