@@ -82,18 +82,22 @@
     margin-right: 3px;
 }
 
-.item a     tton:hover {
+.item a button:hover {
     background-color: #e06299;
 }
 
-.category>button {
+.category>a {
+    width: 40%;
     max-width: 200px;
-    width: 100%;
     margin-top: 20px;
+}
+
+.category>a button {
+    width: 100%;
     background-color: #913DF3;
 }
 
-.category>button:hover {
+.category>a button:hover {
     background-color: #831ff5;
 }
 

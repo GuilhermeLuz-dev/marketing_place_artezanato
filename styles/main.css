@@ -38,7 +38,7 @@ section{
     padding: 20px 0px;
 }
 
-button{
+a button{
     border-radius: 10px;
     border: none;
     cursor: pointer;
